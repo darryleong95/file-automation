@@ -152,16 +152,16 @@ const Compare = () => {
             <span style={{ fontSize: '30px', marginBottom: '30px', textAlign: 'center'}}>
                 Online Stock Pricing
             </span>
-            <div className={classes.fileUploadContainer} style={{ flexDirection: 'row', width: '60%' }}>
-                <div className={classes.fileUploadWrapper} style={{ width: '30%' }}>
+            <div className={classes.fileUploadContainer} style={{ flexDirection: 'row', width: '70%' }}>
+                <div className={classes.fileUploadWrapper} style={{ width: '33%' }}>
                     <span className={classes.label}>Stock List</span>
                     <Input onChange={(event) => onFileChange(event, 1)} type="file" className={classes.fileUpload} />
                 </div>
-                <div className={classes.fileUploadWrapper} style={{ width: '30%' }}>
+                <div className={classes.fileUploadWrapper} style={{ width: '33%' }}>
                     <span className={classes.label}>Customer Price</span>
                     <Input onChange={(event) => onFileChange(event, 2)} type="file" className={classes.fileUpload} />
                 </div>
-                <div className={classes.fileUploadWrapper} style={{ width: '30%' }}>
+                <div className={classes.fileUploadWrapper} style={{ width: '33%' }}>
                     <span className={classes.label}>Supplier Price</span>
                     <Input onChange={(event) => onFileChange(event, 3)} type="file" className={classes.fileUpload} />
                 </div>

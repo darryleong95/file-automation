@@ -17,7 +17,7 @@ import useClasses from '../useClasses';
 
 const commonStyles = {
   color: '#212b36',
-  padding: '20px 25px',
+  padding: '10px 15px',
   transition: 'background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms',
   cursor: 'pointer',
   userSelect: 'none',
@@ -59,14 +59,14 @@ const Sidebar = () => {
         justifyContent: 'space-between',
       }}>
         <Box sx={{ display: 'flex', alignItems: 'center' }}>
-            {sectionKey === 'plexus' && <Filter1Outlined style={{ color: '#212b36' }} fontSize='small'/>}
-            {sectionKey === 'jabil' && <Filter2Outlined style={{ color: '#212b36' }} fontSize='small'/>}
-            {sectionKey === 'ecomm' && <Filter3Outlined style={{ color: '#212b36' }} fontSize='small'/>}
-            {sectionKey === 'quotation' && <Filter4Outlined style={{ color: '#212b36' }} fontSize='small'/>}
-            {sectionKey === 'admin' && <Filter5Outlined style={{ color: '#212b36' }} fontSize='small'/>}
+            {sectionKey === 'plexus' && <Filter1Outlined style={{ color: '#212b36', fontSize: '0.9em' }}/>}
+            {sectionKey === 'jabil' && <Filter2Outlined style={{ color: '#212b36', fontSize: '0.9em' }}/>}
+            {sectionKey === 'ecomm' && <Filter3Outlined style={{ color: '#212b36', fontSize: '0.9em' }}/>}
+            {sectionKey === 'quotation' && <Filter4Outlined style={{ color: '#212b36', fontSize: '0.9em' }}/>}
+            {sectionKey === 'admin' && <Filter5Outlined style={{ color: '#212b36', fontSize: '0.9em' }}/>}
             <Typography sx={{
                 paddingLeft: "10px",
-                fontSize: "0.95em",
+                fontSize: "0.8em",
                 fontFamily: "AirbnbCereal-Medium"
             }}>
                 {title}
@@ -96,7 +96,7 @@ const Sidebar = () => {
               <Typography
                 sx={{
                     paddingLeft: "10px",
-                    fontSize: "0.85em",
+                    fontSize: "0.75em",
                     color: "#212b36",
                     fontFamily: "AirbnbCereal-Book",
                 }}

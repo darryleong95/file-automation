@@ -93,12 +93,12 @@ const QuotationCompare = () => {
                 Output file will follow the template of New Quotation. <br/>
                 It will add in details from the old file if the CPN & MPN matches. <br/>
             </span>
-            <div className={classes.fileUploadContainer} style={{ flexDirection: 'row', width: '60%' }}>
-                <div className={classes.fileUploadWrapper} style={{ width: '30%' }}>
+            <div className={classes.fileUploadContainer} style={{ flexDirection: 'row', width: '70%' }}>
+                <div className={classes.fileUploadWrapper} style={{ width: '50%' }}>
                     <span className={classes.label}>Old File</span>
                     <Input onChange={(event) => uploadOld(event)} type="file" className={classes.fileUpload} />
                 </div>
-                <div className={classes.fileUploadWrapper} style={{ width: '30%' }}>
+                <div className={classes.fileUploadWrapper} style={{ width: '50%' }}>
                     <span className={classes.label}>New File</span>
                     <Input onChange={(event) => uploadNew(event)} type="file" className={classes.fileUpload} />
                 </div>
