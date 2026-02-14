@@ -42,7 +42,7 @@ const QuotationCompare = () => {
         formData.append("file2", newF);
 
         try {
-            const response = await fetch("https://api.wiselinkapp.com/upload", {
+            const response = await fetch("https://worker.wiselinkapp.com/upload", {
                 method: 'POST',
                 body: formData
             });
